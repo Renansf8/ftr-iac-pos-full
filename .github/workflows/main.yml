@@ -42,7 +42,7 @@ jobs:
         uses: pulumi/actions@v6
         with:
           command: up
-          stack-name: Renansf8-org/stg
+          stack-name: stg
           cloud-url: s3://rocketseat-pos-pulumi-state-full
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
